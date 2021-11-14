@@ -1,5 +1,5 @@
-weights: ''
-cfg: yolov5/models/yolov5s.yaml
+weights: yolov5/runs/train/exp20/weights/best.pt
+cfg: ''
 data: dataset/data.yaml
 hyp: yolov5/data/hyps/hyp.scratch.yaml
 epochs: 100
@@ -34,4 +34,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: yolov5/runs/train/exp20
+save_dir: yolov5/runs/train/exp21
