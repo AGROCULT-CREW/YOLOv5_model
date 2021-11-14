@@ -3,7 +3,7 @@ cfg: yolov5/models/yolov5s.yaml
 data: dataset/data.yaml
 hyp: yolov5/data/hyps/hyp.scratch.yaml
 epochs: 100
-batch_size: 16
+batch_size: 5
 imgsz: 640
 rect: false
 resume: false
@@ -34,4 +34,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: yolov5/runs/train/exp18
+save_dir: yolov5/runs/train/exp20
